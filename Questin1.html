@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google Homepage</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 100px auto;
+    text-align: center;
+  }
+  
+  .logo {
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .logo img {
+    display: inline-block;
+  }
+  
+  .search-bar {
+    width: 100%;
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid #cdbaba;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .search-btns {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .search-btn {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color: #bfd3f4;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-btn:hover {
+    background-color: #bfd3f4;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <div class="logo">
+    <img src="google-india-logo-625800AE7B-seeklogo.com.png">
+
+  </div>
+  <form action="https://www.google.com/search" method="GET">
+    <input type="text" name="q" class="search-bar" >
+    <div class="search-btns">
+      <input type="submit" value="Google Search" class="search-btn">
+      <input type="submit" value="I'm Feeling Lucky" class="search-btn">
+    </div>
+  </form>
+</div>
+
+</body>
+</html>
